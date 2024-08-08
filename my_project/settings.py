@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-e9o@r1(a!q)z9xx47sj_-e552z9r!p2lriv9gh)*w-)5898wn6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-csclown-djangogettingst-oloy75nbjpc.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-csclown-djangogettingst-oloy75nbjpc.ws.codeinstitute-ide.net',
+                '.herokuapp.com']
 
 
 # Application definition
